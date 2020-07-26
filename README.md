@@ -1,17 +1,34 @@
 # Linear Regression on Personal Health Data
 
+## Aim
+
+Build a linear regression model based on personal health data.
+
 ## Motivation
 Hi all, This is my first notebook. I am trying to perform Exploratory Data Analysis (EDA) and linear regression on personal health data set end to end. Any feedback and constuctive feedback is appreciated hosted on Kaggle. Link to the Dataset: https://www.kaggle.com/mirichoi0218/insurance
 
-# Steps
+## Table of contents
+- [Components](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#Components)
+- [](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#Components#Implementation
 
-## 1. Import Data
+
+
+## Components
+- [Kaggle Dataset](https://www.kaggle.com/mirichoi0218/insurance)
+- Jupyter notebook
+- Python: numpy, pandas, matplotlib packages
+
+
+
+## Implementation Steps
+
+### 1. Import Data
 
 Once we import the Data using `read_csv`, we then use `head()` to sample the data . We try to identify numerical and categorical data.
 
 ![sample-data](assets/sample-data.JPG)
 
-## 2. Preprocessing
+### 2. Preprocessing
 
 We proceed to collect basic descriptive stats using `describe()`. 
 
@@ -31,7 +48,7 @@ we use one hot encoding by using `get_dummies()`
 
 ![one hot encoding](assets/one-hot-encoding.JPG)
 
-## 3. Exploratory Data Processing (EDA)
+### 3. Exploratory Data Processing (EDA)
 
 We try to then find the correlation between features.
 
