@@ -1,15 +1,20 @@
+![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/Linear-Regression-on-Personal-Health-Data)
+![GitHub last commit](https://img.shields.io/github/last-commit/Thomas-George-T/Linear-Regression-on-Personal-Health-Data?style=flat)
+![GitHub License](https://img.shields.io/github/license/Thomas-George-T/Linear-Regression-on-Personal-Health-Data?style=flat)
+![ViewCount](https://views.whatilearened.today/views/github/Thomas-George-T/Linear-Regression-on-Personal-Health-Data.svg?cache=remove)
+
 # Linear Regression on Personal Health Data
 
 ## Aim
 
-Build a linear regression model based on personal health data.
+To build a linear regression model based on personal health data and explore any trends we may find.
 
 ## Motivation
 Hi all, This is my first notebook. I am trying to perform Exploratory Data Analysis (EDA) and linear regression on personal health data set end to end. Any feedback and constuctive feedback is appreciated hosted on Kaggle. Link to the Dataset: https://www.kaggle.com/mirichoi0218/insurance
 
 ## Table of contents
 - [Components](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#Components)
-- [Implementation Steps](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#implementation-steps)
+- [Model Implementation](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#model-implementation)
   1. [Import Data](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#1-import-data)
   2. [Preprocessing](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#2-preprocessing)
   3. [Exploratory Data Analysis (EDA)](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#3-exploratory-data-analysis-eda)
@@ -22,7 +27,7 @@ Hi all, This is my first notebook. I am trying to perform Exploratory Data Analy
 - Jupyter notebook
 - Python: numpy, pandas, matplotlib packages
 
-## Implementation Steps
+## Model Implementation
 
 ### 1. Import Data
 
@@ -92,4 +97,4 @@ To evaluate our linear regression, we use R<sup>2</sup> and mean squared error.
 From the figure, Our evaluation metrics of R<sup>2</sup> and mean squared error of both training and test data are closely matching. This is enough to conclude our model is appropriate to predict patient charges based on their personal health data.
 
 ## License
-This project is under the MIT License [See more](https://raw.githubusercontent.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data/master/LICENSE.md)
+This project is under the MIT License - see [License](LICENSE.md) for more details
