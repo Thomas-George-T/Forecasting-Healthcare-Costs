@@ -9,16 +9,18 @@ Hi all, This is my first notebook. I am trying to perform Exploratory Data Analy
 
 ## Table of contents
 - [Components](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#Components)
-- [](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#Components#Implementation
-
-
-
+- [Implementation Steps](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#implementation-steps)
+  1. [Import Data](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#1-import-data)
+  2. [Preprocessing](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#2-preprocessing)
+  3. [Exploratory Data Analysis (EDA)](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#3-exploratory-data-analysis-eda)
+  4. [Model Building](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#4-model-building)
+  5. [Model Evaluation](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#5-model-evaluation)
+- [License](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#License)
+  
 ## Components
 - [Kaggle Dataset](https://www.kaggle.com/mirichoi0218/insurance)
 - Jupyter notebook
 - Python: numpy, pandas, matplotlib packages
-
-
 
 ## Implementation Steps
 
@@ -48,7 +50,7 @@ we use one hot encoding by using `get_dummies()`
 
 ![one hot encoding](assets/one-hot-encoding.JPG)
 
-### 3. Exploratory Data Processing (EDA)
+### 3. Exploratory Data Analysis (EDA)
 
 We try to then find the correlation between features.
 
@@ -88,3 +90,6 @@ To evaluate our linear regression, we use R<sup>2</sup> and mean squared error.
 ![mode evaluation](assets/model-evaluation.JPG)
 
 From the figure, Our evaluation metrics of R<sup>2</sup> and mean squared error of both training and test data are closely matching. This is enough to conclude our model is appropriate to predict patient charges based on their personal health data.
+
+## License
+This project is under the MIT License [See more](https://raw.githubusercontent.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data/master/LICENSE.md)
