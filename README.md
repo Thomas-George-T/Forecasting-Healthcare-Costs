@@ -40,3 +40,34 @@ We try to then find the correlation between features.
 Using a heat map to explore the trends.
 
 ![heatmap](assets/corr-heatmap.JPG)
+
+From this we can see the following observations:
+
+1. Strong correlation between charges and smoker_yes.
+2. Weak correlation between charges and age.
+3. Weak correlation between charges and bmi.
+4. Weak correlation between bmi and region_southeast.
+Since the values for the weak correlations are less than 0.5, we can term them as insignificant and drop them.
+
+Exploring the trend between charges and smoker_yes.
+Finding the range of the treatment charges of patients using graphs.
+
+![range of charges](assets/charges_range.JPG)
+
+From the graph, We can see the minimum charges are around 1122 for a high number of patients and maximum of 63770.
+
+### 4. Model Building
+
+![Model building](assets/model-building.JPG)
+
+We then begin to predict the values of the patient charges using the other features. We build a linear regression model after importing the package `sklearn.linear_model`. We split the data set into training and test set. We use 30% of the dataset for testing using `test_size=0.3` 
+We take the predictor variable without the charges column and the target variable as charges.
+We proceed to fit the linear regression model for the test and training set using `fit()`. This part is called **Model fitting**. We check the prediction score of both and training and test set using `score()`. It comes out to be 79%, which is pretty decent I would say.
+
+### 5. Model Evaluation
+
+To evaluate our linear regression, we use R<sup>2</sup> and mean squared error.
+
+![mode evaluation](assets/model-evaluation.JPG)
+
+From the figure, Our evaluation metrics of R<sup>2</sup> and mean squared error of both training and test data are closely matching. This is enough to conclude our model is appropriate to predict patient charges based on their personal health data.
