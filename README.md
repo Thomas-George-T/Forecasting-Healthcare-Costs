@@ -1,13 +1,13 @@
-![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/Linear-Regression-on-Personal-Health-Data)
-![GitHub last commit](https://img.shields.io/github/last-commit/Thomas-George-T/Linear-Regression-on-Personal-Health-Data?style=flat)
-![GitHub License](https://img.shields.io/github/license/Thomas-George-T/Linear-Regression-on-Personal-Health-Data?style=flat)
-![ViewCount](https://views.whatilearened.today/views/github/Thomas-George-T/Linear-Regression-on-Personal-Health-Data.svg?cache=remove)
+![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/Regression-on-Personal-Health-Data)
+![GitHub last commit](https://img.shields.io/github/last-commit/Thomas-George-T/Regression-on-Personal-Health-Data?style=flat)
+![GitHub License](https://img.shields.io/github/license/Thomas-George-T/Regression-on-Personal-Health-Data?style=flat)
+![ViewCount](https://views.whatilearened.today/views/github/Thomas-George-T/Regression-on-Personal-Health-Data.svg?cache=remove)
 
 # Linear Regression on Personal Health Data
 
 ## Aim
 
-To build a linear regression model based on personal health data and explore any trends we may find.
+To predict the cost of treatment and insurance by leveraging personal health data using regression.
 
 ## Motivation
 Hi all, This is my first notebook. I am trying to perform Exploratory Data Analysis (EDA) and linear regression on personal health data set end to end. Any feedback and constuctive feedback is appreciated hosted on Kaggle. Link to the Dataset: https://www.kaggle.com/mirichoi0218/insurance
