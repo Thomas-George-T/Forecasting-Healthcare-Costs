@@ -3,24 +3,24 @@
 ![GitHub License](https://img.shields.io/github/license/Thomas-George-T/Regression-on-Personal-Health-Data?style=flat)
 ![ViewCount](https://views.whatilearened.today/views/github/Thomas-George-T/Regression-on-Personal-Health-Data.svg?cache=remove)
 
-# Linear Regression on Personal Health Data
+# Regression on Personal Health Data
 
 ## Aim
 
-To predict the cost of treatment and insurance by leveraging personal health data using regression.
+Predicting the cost of treatment and insurance using regression by leveraging personal health data.
 
 ## Motivation
-Hi all, This is my first notebook. I am trying to perform Exploratory Data Analysis (EDA) and linear regression on personal health data set end to end. Any feedback and constuctive feedback is appreciated hosted on Kaggle. Link to the Dataset: https://www.kaggle.com/mirichoi0218/insurance
+Hi all, This is my first notebook. I am trying to perform Exploratory Data Analysis (EDA) and linear regression on personal health data. Any feedback and constructive criticism is appreciated. The personal heath data is hosted on Kaggle. Link: https://www.kaggle.com/mirichoi0218/insurance
 
 ## Table of contents
-- [Components](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#Components)
-- [Model Implementation](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#model-implementation)
-  1. [Import Data](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#1-import-data)
-  2. [Preprocessing](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#2-preprocessing)
-  3. [Exploratory Data Analysis (EDA)](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#3-exploratory-data-analysis-eda)
-  4. [Model Building](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#4-model-building)
-  5. [Model Evaluation](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#5-model-evaluation)
-- [License](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#License)
+1. [Components](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#Components)
+2. [Model Implementation](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#model-implementation)
+   1. [Import Data](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#1-import-data)
+   2. [Data Preprocessing](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#2-data-preprocessing)
+   3. [Exploratory Data Analysis (EDA)](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#3-exploratory-data-analysis-eda)
+   4. [Model Building](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#4-model-building)
+   5. [Model Evaluation](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#5-model-evaluation)
+3. [License](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#License)
   
 ## Components
 - [Kaggle Dataset](https://www.kaggle.com/mirichoi0218/insurance)
@@ -35,13 +35,15 @@ Once we import the Data using `read_csv`, we then use `head()` to sample the dat
 
 ![sample-data](assets/sample-data.JPG)
 
-### 2. Preprocessing
+### 2. Data Preprocessing
 
-We proceed to collect basic descriptive stats using `describe()`. 
+We proceed to collect basic descriptive stats using `describe()`. We try to understand what the data looks like and what it is trying to tell us.
 
 ```python
 data.describe()
 ```
+
+![describe](assets/describe.JPG)
 
 We then split the data into numerical and categorical data.
 
