@@ -96,6 +96,8 @@ To evaluate our linear regression, we use R<sup>2</sup> and mean squared error.
 
 ![mode evaluation](assets/model-evaluation.JPG)
 
+On evaluating our model, it showed <bold>accuracy of 80%</bold> on the test data. 
+
 From the figure, Our evaluation metrics of R<sup>2</sup> and mean squared error of both training and test data are closely matching. This is enough to conclude our model is appropriate to predict patient charges based on their personal health data.
 
 ## License
