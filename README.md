@@ -5,12 +5,10 @@
 
 # Regression on Personal Health Data
 
-## Aim
-
 Predicting the cost of treatment and insurance using regression by leveraging personal health data.
 
 ## Motivation
-Hi all, This is my first notebook. I am trying to perform Exploratory Data Analysis (EDA) and linear regression on personal health data. Any feedback and constructive criticism is appreciated. The personal heath data is hosted on Kaggle. Link: https://www.kaggle.com/mirichoi0218/insurance
+This is my first notebook. I am trying to perform Exploratory Data Analysis (EDA) and linear regression on personal health data. Any feedback and constructive criticism is appreciated. The personal heath data is hosted on Kaggle. Link: https://www.kaggle.com/mirichoi0218/insurance
 
 ## Table of contents
 1. [Components](https://github.com/Thomas-George-T/Linear-Regression-on-Personal-Health-Data#Components)
