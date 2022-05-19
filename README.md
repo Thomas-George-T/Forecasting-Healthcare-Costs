@@ -3,7 +3,7 @@
 ![GitHub License](https://img.shields.io/github/license/Thomas-George-T/Regression-on-Personal-Health-Data?style=flat)
 ![ViewCount](https://views.whatilearened.today/views/github/Thomas-George-T/Regression-on-Personal-Health-Data.svg?cache=remove)
 
-# Regression on Personal Health Data
+# Predicting Healthcare Costs
 
 Predicting the cost of treatment and insurance using regression by leveraging personal health data.
 
